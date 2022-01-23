@@ -1,4 +1,8 @@
 
-p {
-    color: grey;
+.container-fluid {
+    background-color: rgb(44, 45, 46);
+    font-size: 50;
+}
+.left-section {
+    color: white;
 }
