@@ -1,5 +1,28 @@
 
+.progress{
+    color: black;
+}
+.left-section{
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top: 0;
+    padding-bottom:0px;
 
+}
+.navbar .navbar-expand .navbar-dark .bg-dark {
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top: 0;
+    padding-bottom:0px;
+
+}
+.navbar .navbar-right{
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top: 0;
+    padding-bottom:0px;
+
+}
 .left-section {
     color: white;
 }
