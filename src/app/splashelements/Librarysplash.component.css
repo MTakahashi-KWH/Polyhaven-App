@@ -2,3 +2,6 @@ ul {
     list-style-type: none;
     width: 18rem;
 }
+.container-fluid{
+    background-color: rgb(35,35,35) !important;
+}
