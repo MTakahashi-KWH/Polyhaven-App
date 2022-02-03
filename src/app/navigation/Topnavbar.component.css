@@ -1,6 +1,23 @@
 
+.progress-bar{
+    border-top-right-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    -webkit-box-shadow: none !important;
+  	-moz-box-shadow: none !important;
+	  box-shadow: none !important;
+    background-color:rgb(215,215,215) !important;
+}
+
 .progress{
-    color: black;
+    border-radius: 40px !important;
+    background-color: rgb(35,35,35) !important;
+    height: 22px;
+    
+    /* Changes below */
+    -webkit-box-shadow: inset 0 0 0 2px rgb(215,215,215)  !important;
+	  -moz-box-shadow: inset 0 0 0 2px  rgb(215,215,215) !important;
+	  box-shadow: inset 0 0 0 2px  rgb(215,215,215) !important;
+    border: none;
 }
 .left-section{
     margin-top:0px;
@@ -8,7 +25,11 @@
     padding-top: 0;
     padding-bottom:0px;
     background-color: rgb(35,35,35) !important;
+    color: white;
 
+}
+.sr-only {
+    width: 150px;
 }
 nav {
     background-color: rgb(35,35,35) !important;
@@ -29,9 +50,7 @@ nav {
     color: white;
 
 }
-.left-section {
-    color: white;
-}
+
 .login{
     margin-left: 5px;
 }

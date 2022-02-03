@@ -1,9 +1,13 @@
 .masthead {
     background-image: url(/../assets/blenderinblender.png); 
     /* Full height */
-    height: 700px;
+    height: 750px;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-shadow: black 0px 0px 6px !important;
+}
+.mt-4{
+    font-size: 48px !important;
 }
