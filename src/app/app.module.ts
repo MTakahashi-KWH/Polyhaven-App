@@ -4,7 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BottonNavBarComponent } from './navigation/Bottomnavbar.component';
 import { TopNavBarComponent } from './navigation/Topnavbar.component';
-import { LibrarySplashComponent } from './splashelements/ Librarysplash.component';
+import { LibraryCardComponent } from './splashelements/Library.card.component';
+import { LibrarySplashComponent } from './splashelements/Librarysplash.component';
 import { TitleSplashComponent } from './splashelements/Titlesplash.component';
 
 @NgModule({
@@ -13,7 +14,8 @@ import { TitleSplashComponent } from './splashelements/Titlesplash.component';
     TopNavBarComponent,
     BottonNavBarComponent,
     TitleSplashComponent,
-    LibrarySplashComponent
+    LibrarySplashComponent,
+    LibraryCardComponent
   ],
   imports: [
     BrowserModule
