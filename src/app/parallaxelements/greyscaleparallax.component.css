@@ -1,0 +1,10 @@
+.flex-column{
+    background-image: url(/../assets/archimeshtesttextureless.png);
+    height: 34em;
+    background-attachment: fixed;
+}
+
+.text-center{
+    --bs-bg-opacity: .5;
+    width: 30em;
+}
