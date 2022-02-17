@@ -1,5 +1,7 @@
 2/17/22
 Added routing for all libraries
+-All/combined, HDRI, Texture, and Model pages created
 -working on activating all links to them
++putting refs on ngfor components on todo list
 implemented library sidebars
 made home page the default route
