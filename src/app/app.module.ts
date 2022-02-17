@@ -9,6 +9,12 @@ import { FullSceneParallax } from './parallaxelements/sceneparallax.component';
 import { LibraryCardComponent } from './splashelements/Library.card.component';
 import { LibrarySplashComponent } from './splashelements/Librarysplash.component';
 import { TitleSplashComponent } from './splashelements/Titlesplash.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomePage } from './pages/homepage.component';
+import { HDRILibrary } from './pages/hdrilibrary.component';
+import { TextureLibrary } from './pages/texturelibrary.component';
+import { AllLibrary } from './pages/alllibrary.component';
+import { ModelLibrary } from './pages/modellibrary.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +25,16 @@ import { TitleSplashComponent } from './splashelements/Titlesplash.component';
     LibrarySplashComponent,
     LibraryCardComponent,
     FullSceneParallax,
-    GreyScaleParallax
+    GreyScaleParallax,
+    HomePage,
+    HDRILibrary,
+    TextureLibrary,
+    ModelLibrary,
+    AllLibrary
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
