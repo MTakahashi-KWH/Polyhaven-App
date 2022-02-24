@@ -1,12 +1,42 @@
 <div class="navbar bg-dark text-wrap text-white">
-    <div class="flex-column p-5">
-        <div class='text-center'>
-            <h1>Supported by you</h1>
-        </div>
-        <div class='progress'>
-            <div class="progress-bar" role="progressbar" style='width:90%'>
-                <span class="sr-only" style="color: black"><b>|* 1770$ to go</b></span>
+    <div class="d-inline-flex">
+        <div class="col-6 p-5">
+            <div class='text-center my-5'>
+                <h1>Supported by you</h1>
             </div>
+            <div class='progress my-5'>
+                <div class="progress-bar" role="progressbar" style='width:90%'>
+                    <span class="sr-only" style="color: black"><b>|* 1770$ to go</b></span>
+                </div>
+            </div>
+            <div class="nav m-5 justify-content-center">
+                <button>Become a Patron</button>
+                <button>Finance Reports</button>
+            </div>
+        </div>
+        <div class="col-6 text-wrap py-5 px-4">
+            <p>As a 3D artist yourself, you know how much work it 
+                is to create good assets, especially when other people
+                will need to use them for a variety of projects.
+            </p>
+            <p>
+                The computers and camera equipment necessary to produce high 
+                quality content are expensive, and so is the web infrastructure 
+                needed to keep this platform running.
+            </p>
+            <p>
+                This is where you come in.
+            </p>
+            <p>
+                With your support, not only can we keep Poly Haven alive and 
+                running, but <b>we can improve it.</b>
+            </p>
+        </div>
+    </div>
+    <div class="d-inline-flex justify-content-start">
+        <div class="mx-2">Newest Patrons:</div>
+        <div class="mx-2" *ngFor="let section of sections">
+            <app-patreon-card img={{section.img}} name={{section.name}} time={{section.time}}></app-patreon-card>
         </div>
     </div>
 </div>

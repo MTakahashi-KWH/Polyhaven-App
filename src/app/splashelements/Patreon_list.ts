@@ -11,7 +11,7 @@ export const patreon_list = [
     },
     {
         img: "./assets/Polyhaven_logo.png",
-        name: "Ivan The Terrible",
+        name: "Ivan Terrible",
         time: "35 hours ago"
     },
     {

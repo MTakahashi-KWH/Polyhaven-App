@@ -16,6 +16,7 @@ import { TextureLibrary } from './pages/texturelibrary.component';
 import { AllLibrary } from './pages/alllibrary.component';
 import { ModelLibrary } from './pages/modellibrary.component';
 import { PatreonSplashComponent } from './splashelements/Patreonsplash.component';
+import { PatreonCardComponent } from './splashelements/Patreon.card.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { PatreonSplashComponent } from './splashelements/Patreonsplash.component
     TextureLibrary,
     ModelLibrary,
     AllLibrary,
-    PatreonSplashComponent
+    PatreonSplashComponent,
+    PatreonCardComponent
   ],
   imports: [
     BrowserModule,
