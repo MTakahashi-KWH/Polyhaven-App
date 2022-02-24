@@ -1,3 +1,10 @@
+2/23/22
+Added 2 new splash elements to main page
+-one has ngfor loop describing most recent patrons
+-other is standard about us splash
+Beginning to set library sidebars as their own components
+
+
 2/17/22
 Added routing for all libraries
 -All/combined, HDRI, Texture, and Model pages created

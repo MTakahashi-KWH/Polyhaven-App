@@ -17,6 +17,8 @@ import { AllLibrary } from './pages/alllibrary.component';
 import { ModelLibrary } from './pages/modellibrary.component';
 import { PatreonSplashComponent } from './splashelements/Patreonsplash.component';
 import { PatreonCardComponent } from './splashelements/Patreon.card.component';
+import { AboutUsSplashComponent } from './splashelements/Aboutussplash.component';
+import { TextureSideBarComponent } from './pages/texturesidebar.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { PatreonCardComponent } from './splashelements/Patreon.card.component';
     ModelLibrary,
     AllLibrary,
     PatreonSplashComponent,
-    PatreonCardComponent
+    PatreonCardComponent,
+    AboutUsSplashComponent,
+    TextureSideBarComponent
   ],
   imports: [
     BrowserModule,
