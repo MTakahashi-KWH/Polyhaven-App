@@ -15,6 +15,7 @@ import { HDRILibrary } from './pages/hdrilibrary.component';
 import { TextureLibrary } from './pages/texturelibrary.component';
 import { AllLibrary } from './pages/alllibrary.component';
 import { ModelLibrary } from './pages/modellibrary.component';
+import { PatreonSplashComponent } from './splashelements/Patreonsplash.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ModelLibrary } from './pages/modellibrary.component';
     HDRILibrary,
     TextureLibrary,
     ModelLibrary,
-    AllLibrary
+    AllLibrary,
+    PatreonSplashComponent
   ],
   imports: [
     BrowserModule,
