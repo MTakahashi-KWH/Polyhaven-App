@@ -1,0 +1,11 @@
+<div *ngIf="myInfo == undefined">
+    <p class="text-warning">Failed to fetch user data</p>
+</div>
+<div class='row' *ngIf="myInfo != undefined">
+    <div class="col-6">
+    <p>user-info works! User: {{myInfo.FirstName}} {{myInfo.LastName}}</p>
+    </div>
+    <div class="col-6">
+    <p>GitHub: {{myInfo.GitHub}} email: {{myInfo.mix_id}}</p>
+    </div>
+</div>

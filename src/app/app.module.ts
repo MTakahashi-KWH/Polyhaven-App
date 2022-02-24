@@ -20,6 +20,8 @@ import { PatreonCardComponent } from './splashelements/Patreon.card.component';
 import { AboutUsSplashComponent } from './splashelements/Aboutussplash.component';
 import { TextureSideBarComponent } from './pages/texturesidebar.component';
 import { ModelSideBarComponent } from './pages/modelsidebar.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -40,11 +42,13 @@ import { ModelSideBarComponent } from './pages/modelsidebar.component';
     PatreonCardComponent,
     AboutUsSplashComponent,
     TextureSideBarComponent,
-    ModelSideBarComponent
+    ModelSideBarComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
