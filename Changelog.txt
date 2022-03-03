@@ -1,3 +1,12 @@
+2/24/22
+created new firebase server
+- https://polyhaven-940a4-default-rtdb.firebaseio.com/
+-made sample user info
+made http to fetch user data in webapp
+displayed user data at bottom of homepage
+bonus points? updated index.html file to show more accurate site name and logo on tab
+
+
 2/23/22
 Added 2 new splash elements to main page
 -one has ngfor loop describing most recent patrons

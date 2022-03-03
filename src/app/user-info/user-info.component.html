@@ -1,7 +1,7 @@
 <div *ngIf="myInfo == undefined">
     <p class="text-warning">Failed to fetch user data</p>
 </div>
-<div class='row' *ngIf="myInfo != undefined">
+<div class='row bg-dark text-white' *ngIf="myInfo != undefined">
     <div class="col-6">
     <p>user-info works! User: {{myInfo.FirstName}} {{myInfo.LastName}}</p>
     </div>
