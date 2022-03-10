@@ -1,4 +1,4 @@
-import { HttpClient } from "@angular/common/http";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 import { Injectable } from "@angular/core";
 import { LibrarySectionModel } from "./Library_section.model";
 
@@ -6,18 +6,16 @@ import { LibrarySectionModel } from "./Library_section.model";
     {providedIn: 'root'}
 )
 export class LibrariesService {
-    private baseUrl:string = "https://polyhaven-940a4-default-rtdb.firebaseio.com/";
-    private librariesdEndPoint:string = "libraries.json";
 
-    constructor(private http:HttpClient) {
+    constructor(private db: AngularFireDatabase) {
 
     }
 
     getLibraries() {
-        return this.http.get<LibrarySectionModel []>(this.baseUrl + this.librariesdEndPoint);
+        return this.db.list<LibrarySectionModel>("libraries").valueChanges();
     }
 
     getLibrary(index:number) {
-        return this.http.get<LibrarySectionModel>(this.baseUrl + 'products' + '/' + index + '.json');
+        return this.db.list<LibrarySectionModel>("libraries", ref => ref.equalTo(index)).valueChanges();
     }
 } 
