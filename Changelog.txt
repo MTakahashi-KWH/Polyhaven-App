@@ -1,6 +1,6 @@
 3/9/22
 -created library section in database
--added fetch library system from database
+-added fetch library system from database for library splash element
 +created library service to fetch
 +used model to parse .json object format
 -started to rearrange files into component folders for better file structuring and readability
