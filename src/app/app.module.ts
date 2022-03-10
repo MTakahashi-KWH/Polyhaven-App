@@ -10,7 +10,7 @@ import { LibraryCardComponent } from './splashelements/Library.card.component';
 import { LibrarySplashComponent } from './splashelements/Librarysplash.component';
 import { TitleSplashComponent } from './splashelements/Titlesplash.component';
 import { AppRoutingModule } from './app-routing.module';
-import { HomePage } from './pages/homepage.component';
+import { HomePage } from './pages/home_page/homepage.component';
 import { HDRILibrary } from './pages/hdrilibrary.component';
 import { TextureLibrary } from './pages/texturelibrary.component';
 import { AllLibrary } from './pages/alllibrary.component';
