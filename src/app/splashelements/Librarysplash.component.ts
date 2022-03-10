@@ -1,6 +1,6 @@
-import { Component } from "@angular/core";
-import { library_list } from '../splashelements/Library_list';
+import { Component, OnInit } from "@angular/core";
 import { LibrarySectionModel } from '../splashelements/Library_section.model';
+import { LibrariesService } from "./libraries.service";
 
 @Component({
     selector: 'app-librarysplash',
@@ -8,14 +8,19 @@ import { LibrarySectionModel } from '../splashelements/Library_section.model';
     styleUrls: ['Librarysplash.component.css']
 })
 
-export class LibrarySplashComponent{
+export class LibrarySplashComponent implements OnInit{
     sections: LibrarySectionModel [] = [];
 
 
-    constructor(){
-        for(var section of library_list){
-            console.log(section);
-            this.sections.push(section);
-        }
+    constructor(private librariesService: LibrariesService){
+    }
+
+    ngOnInit(): void {
+        this.librariesService.getLibraries().subscribe((data: LibrarySectionModel []) =>{
+            console.log("retreiving our libraries");
+            for( var library of data){
+                this.sections.push(library);
+            }
+        })
     }
 }

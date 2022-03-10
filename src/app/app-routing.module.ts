@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { HomePage } from './pages/homepage.component';
+import { HomePage } from './pages/home_page/homepage.component';
 import { HDRILibrary } from './pages/hdrilibrary.component';
 import { TextureLibrary } from './pages/texturelibrary.component';
 import { ModelLibrary } from './pages/modellibrary.component';
