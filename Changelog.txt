@@ -1,3 +1,7 @@
+3/9/22 -2
+-installed angular fire
+-packaged and deployed website to firebase
+-changed data access from http request to database call
 3/9/22
 -created library section in database
 -added fetch library system from database for library splash element
