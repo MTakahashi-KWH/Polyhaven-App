@@ -1,0 +1,14 @@
+<div class="container pt-5">
+    <div class="row">
+        <form #postForm="ngForm" (ngSubmit)="addProduct(postForm.value)">
+            <div class="col-3">
+                <div><span>img</span><input type="text" ngModel name="img"></div>
+                <div><span>name</span><input type="text" ngModel name="name"></div>
+                <div><span>description</span><input type="text" ngModel name="description"></div>
+                <div><span>color</span><input type="text" ngModel name="libcolor"></div>
+                <div><span>label</span><input type="text" ngModel name="btext"></div>
+                <div><button type="submit">submit</button></div>
+            </div>
+        </form>
+    </div>
+</div>

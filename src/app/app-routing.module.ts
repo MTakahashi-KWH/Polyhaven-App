@@ -6,13 +6,15 @@ import { HDRILibrary } from './pages/hdrilibrary.component';
 import { TextureLibrary } from './pages/texturelibrary.component';
 import { ModelLibrary } from './pages/modellibrary.component';
 import { AllLibrary } from './pages/alllibrary.component';
+import { AddproductComponent } from './pages/addproduct/addproduct.component';
 
 const routes: Routes = [
   {path: '', component: HomePage },
   {path: 'hdris', component: HDRILibrary },
   {path: 'texture', component: TextureLibrary },
   {path: 'models', component: ModelLibrary },
-  {path: 'all', component: AllLibrary }
+  {path: 'all', component: AllLibrary },
+  {path: 'admin', component: AddproductComponent}
 ]
 
 @NgModule({
