@@ -5,8 +5,8 @@ import { HomePage } from './pages/home_page/homepage.component';
 import { HDRILibrary } from './pages/hdrilibrary.component';
 import { TextureLibrary } from './pages/texturelibrary.component';
 import { ModelLibrary } from './pages/modellibrary.component';
-import { AllLibrary } from './pages/alllibrary.component';
-import { AddproductComponent } from './pages/addproduct/addproduct.component';
+import { AllLibrary } from './pages/all_library/alllibrary.component';
+import { AddPatronComponent } from './pages/add_patron/addpatron.component';
 
 const routes: Routes = [
   {path: '', component: HomePage },
@@ -14,7 +14,7 @@ const routes: Routes = [
   {path: 'texture', component: TextureLibrary },
   {path: 'models', component: ModelLibrary },
   {path: 'all', component: AllLibrary },
-  {path: 'admin', component: AddproductComponent}
+  {path: 'admin', component: AddPatronComponent}
 ]
 
 @NgModule({

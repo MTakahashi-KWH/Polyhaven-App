@@ -1,6 +1,11 @@
+3/30/22
+-finished admin page
++form pushes item to patron list in database
+-restructured files to be more readable
+
 3/24/22
 -set up admin page
--created object form for library section
+-created object form for new patron
 
 3/9/22 -2
 -installed angular fire

@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { LibrarySectionModel } from '../splashelements/Library_section.model';
+import { LibrarySectionModel } from './Library_section.model';
 import { LibrariesService } from "./libraries.service";
 
 @Component({

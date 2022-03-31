@@ -6,18 +6,18 @@ import { BottonNavBarComponent } from './navigation/Bottomnavbar.component';
 import { TopNavBarComponent } from './navigation/Topnavbar.component';
 import { GreyScaleParallax } from './parallaxelements/greyscaleparallax.component';
 import { FullSceneParallax } from './parallaxelements/sceneparallax.component';
-import { LibraryCardComponent } from './splashelements/Library.card.component';
-import { LibrarySplashComponent } from './splashelements/Librarysplash.component';
+import { LibraryCardComponent } from './splashelements/library/Library.card.component';
+import { LibrarySplashComponent } from './splashelements/library/Librarysplash.component';
 import { TitleSplashComponent } from './splashelements/Titlesplash.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomePage } from './pages/home_page/homepage.component';
 import { HDRILibrary } from './pages/hdrilibrary.component';
 import { TextureLibrary } from './pages/texturelibrary.component';
-import { AllLibrary } from './pages/alllibrary.component';
+import { AllLibrary } from './pages/all_library/alllibrary.component';
 import { ModelLibrary } from './pages/modellibrary.component';
 import { PatreonSplashComponent } from './splashelements/Patreonsplash.component';
 import { PatreonCardComponent } from './splashelements/Patreon.card.component';
-import { AboutUsSplashComponent } from './splashelements/Aboutussplash.component';
+import { AboutUsSplashComponent } from './splashelements/about_us/Aboutussplash.component';
 import { TextureSideBarComponent } from './pages/texturesidebar.component';
 import { ModelSideBarComponent } from './pages/modelsidebar.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -28,7 +28,7 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
-import { AddproductComponent } from './pages/addproduct/addproduct.component';
+import { AddPatronComponent } from './pages/add_patron/addpatron.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -52,7 +52,7 @@ import { FormsModule } from '@angular/forms';
     TextureSideBarComponent,
     ModelSideBarComponent,
     UserInfoComponent,
-    AddproductComponent
+    AddPatronComponent
   ],
   imports: [
     BrowserModule,
