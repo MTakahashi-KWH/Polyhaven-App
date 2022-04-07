@@ -1,0 +1,19 @@
+<div class="container py-5 px-1">
+    <div class="row mx-1">
+        <div class="col-6">
+            <form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)">
+                <div class="input-group">
+                    <span class="input-group-text">email</span>
+                    <input type="text" class="form-control" placeholder="email" required ngModel name="email">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">password</span>
+                    <input type="text" class="form-control" placeholder="password" required ngModel name="password" >
+                </div>
+                <div class="justify-content-end">
+                    <button class="btn btn-primary" type="submit" [disabled]="!authForm.valid">login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

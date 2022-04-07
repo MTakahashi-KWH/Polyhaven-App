@@ -30,6 +30,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddPatronComponent } from './pages/add_patron/addpatron.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { FormsModule } from '@angular/forms';
     TextureSideBarComponent,
     ModelSideBarComponent,
     UserInfoComponent,
-    AddPatronComponent
+    AddPatronComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,
