@@ -11,7 +11,8 @@
                     <input type="text" class="form-control" placeholder="password" required ngModel name="password" >
                 </div>
                 <div class="justify-content-end">
-                    <button class="btn btn-primary" type="submit" [disabled]="!authForm.valid">login</button>
+                    <button class="btn btn-primary" type="submit" [disabled]="!authForm.valid" (click)="buttontype = 'signup'">Sign Up</button>
+                    <button class="btn btn-primary" type="submit" [disabled]="!authForm.valid"(click)="buttontype = 'login'">login</button>
                 </div>
             </form>
         </div>
