@@ -1,3 +1,11 @@
+4/13/22
+-finished login component by adding sign in functionality and sign in aware service
+-auth service now catches and passes authentication response to function caller.
+
+4/7/22
+-created login component and implemented signup with Firebase REST api
+-created authentication service to post http requests
+
 3/30/22
 -finished admin page
 +form pushes item to patron list in database
